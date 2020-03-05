@@ -34,8 +34,9 @@ import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity implements PhotoAdapter.ListItemClickListener {
 
-//Use the following Flickr API link to allow users to search Flickr photos (add the search term into tags parameter)
-    //https://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=1&tags=Vienna
+    //Use the following Flickr API link to allow users to search Flickr photos (add the search term into tags parameter)
+    // https://www.flickr.com/services/feeds/docs/photos_public/ - read this for all options
+    // https://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=1&tags=Vienna
 
     @BindView(R.id.et_search_tag)
     EditText mEtSearchTag;
